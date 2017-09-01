@@ -2,9 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AreaComponent } from './area/area.component';
-import { NvD3Module } from 'ng2-nvd3';
-import 'd3';
-import 'nvd3';
+import { NgCytoscapeModule } from 'ng2-cytoscape/app.module';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +12,9 @@ import 'nvd3';
   ],
   imports: [
     BrowserModule,
-    NvD3Module,
+    NgCytoscapeModule,
+    NgbModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
