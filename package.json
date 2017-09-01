@@ -25,6 +25,7 @@
     "bootstrap": "^4.0.0-beta",
     "core-js": "^2.4.1",
     "enhanced-resolve": "^3.3.0",
+    "fantastical": "^1.0.2",
     "ng2-cytoscape": "https://github.com/ssuperczynski/ng2-cytoscape#master",
     "rxjs": "^5.4.2",
     "yarn": "^0.27.5",

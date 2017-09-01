@@ -1,0 +1,8 @@
+<label for="amount"></label>
+<input type="number"
+       class="input-group"
+       #amount (keyup)="0"
+       id="amount">
+<button (click)="generate(amount.value)">Generate</button>
+<h1>{{amount.value}}</h1>
+<ng2-cytoscape [elements]="graphData"></ng2-cytoscape>
